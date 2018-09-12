@@ -1,0 +1,2 @@
+model_checkpoint_path: "titan_test_01_model"
+all_model_checkpoint_paths: "titan_test_01_model"
