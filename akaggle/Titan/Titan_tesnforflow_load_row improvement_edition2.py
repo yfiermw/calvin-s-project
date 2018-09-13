@@ -289,7 +289,7 @@ prediction = tf.matmul(layer_6,output_layer['weights']) + output_layer['biases']
 #Calculate the cost
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(logits=prediction,labels=y))
 #Try to tune the parameter (w,b) to reduce the cost
-optimizer = tf.train.AdamOptimizer(learning_rate=0.00000001).minimize(cost)
+optimizer = tf.train.AdamOptimizer(learning_rate=0.000001).minimize(cost)
 #AdamOptimizer 李宏毅
 
 #softmax_cross_entropy_with_logits包含两个作用：1、计算softmax，2、求cross_entropy。     
@@ -326,7 +326,7 @@ def get_batch(data_x,data_y,batch_size):
 #train_y = train_y.reshape(train_y.shape[0],2)
 #valid_y = valid_y.reshape(valid_y.shape[0],2)
 
-hm_epochs = 2000
+hm_epochs = 2200
 #hm_epochs = 200 
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
@@ -389,7 +389,7 @@ with tf.Session() as sess:
     saver.restore(sess, "./my_model/titan_test_01_model")
     
  
-#    for epoch_test in get_test(test):        
+#    for epoch_test in get_test(tesfile:///C:/Users/ccalvin97/.spyder-py3/akaggle/Titan/Titan_tesnforflow_load_row improvement_edition2_66%25_ok.pyt):        
     aaa=sess.run(prediction, feed_dict= {x:test})    
     print("prediction是", prediction.eval({x:test}))
         
