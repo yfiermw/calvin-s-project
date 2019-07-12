@@ -8,7 +8,7 @@ Project List:
 •	Audio → MFCC → NN → Target: CTC Loss (Beam Search, Edit Distance)
 
 
-2. Named Entity Recognition: 
+2. Named Entity Recognition
 •	Utilised different NN structures, incl. Bi-LSTM, CNN to achieved F1 score at 82.6%
 
 3. Sentiment Analysis NLP
