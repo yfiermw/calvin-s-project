@@ -1,5 +1,8 @@
 # Project List:
-From 2018/9/12 v1
+From   
+2018/9/12 v1  
+2019/7/11 v2  
+
 
 
 1. Speech Recognition Industrial Project  
