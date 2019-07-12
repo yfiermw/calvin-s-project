@@ -21,7 +21,7 @@ From
 •	DNN, Linear Regression & Stacking Model (Lasso, Elastic Net, SVR, Kernel Ridge, Bayesian Ridge, Ridge)   
 
 5. Kaggle - Histopathologic Cancer Detection  
-•	2 CNN structures, incl. Fastai DenseNet 201 & NASNet + global max/average pooling – Acc 95.9%  
+•	Two CNN structures, incl. Fastai DenseNet 201 & NASNet + global max/average pooling – Acc 95.9%  
 
 6. Machine Learning Mobile Application – Second Hand Car Selling  
 •	Model 1: Utilised NN to create a price prediction system  
