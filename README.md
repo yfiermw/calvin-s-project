@@ -5,16 +5,15 @@ From
 
 
 
-1. Speech Recognition Industrial Project  
-•	Utilised Bi-LSTM to create language speech recognition system transforming audio data to text  
-•	Audio → MFCC → NN → Target: CTC Loss (Beam Search, Edit Distance)  
-
-
-2. Named Entity Recognition    
+1. Named Entity Recognition    
 •	Utilised different NN structures, incl. Bi-LSTM, CNN to achieved F1 score at 82.6%  
 
-3. Sentiment Analysis NLP
+2. Sentiment Analysis NLP
 ![image](https://github.com/ccalvin97/kaggle2/blob/master/NLP_sentiment%20classification/poster.gif)
+
+3. Speech Recognition Industrial Project  
+•	Utilised Bi-LSTM to create language speech recognition system transforming audio data to text  
+•	Audio → MFCC → NN → Target: CTC Loss (Beam Search, Edit Distance)  
 
 4. Kaggle - House Prices: Advanced Regression Techniques   
 •	Achieved top 6% and accuracy of 0.11 for the RMSE  
