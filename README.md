@@ -6,8 +6,9 @@ From
 
 
 1. Named Entity Recognition    
-•	Utilised different NN structures, incl. Bi-LSTM, CNN to achieved F1 score at 82.6%  
-
+•	Compared with different NN structures, incl. Bi-LSTM, CNN+LSTM – F1 score 82.6%   
+•	Utilised different embedding function, incl. Glove and Tensorflow Elmo  
+ 
 2. Sentiment Analysis NLP
 ![image](https://github.com/ccalvin97/kaggle2/blob/master/NLP_sentiment%20classification/poster.gif)
 
