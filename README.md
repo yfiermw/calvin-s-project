@@ -1,7 +1,6 @@
-# kaggle2
+# Project List:
 2018/9/12
 
-Project List:
 
 1. Speech Recognition Industrial Project 
 
