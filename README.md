@@ -9,7 +9,8 @@ From
 •	Compared with different NN structures, incl. Bi-LSTM, CNN+LSTM – F1 score 82.6%   
 •	Utilised different embedding function, incl. Glove and Tensorflow Elmo  
  
-2. Sentiment Analysis NLP
+2. Sentiment Classification NLP  
+•	Compared with different structures, incl. Bi-LSTM + Global Soft Attention and SVM – Acc 0.771  
 ![image](https://github.com/ccalvin97/kaggle2/blob/master/NLP_sentiment%20classification/poster.gif)
 
 3. Speech Recognition Industrial Project  
